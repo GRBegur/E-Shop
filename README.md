@@ -26,7 +26,7 @@
 * CSS 
 
 ## Local Environment Setup
-* Navigate into the current project directory , i.e /E-shop
+* Navigate into the current project directory , i.e /E-Shop
 * Run 'npm install' to install required dependencies
 * Run 'npm start' and visit 'localhost:3000'
 * If required for deployment, run 'npm build'
