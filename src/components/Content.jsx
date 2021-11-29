@@ -115,7 +115,7 @@ function Content(){
         <>
             <div className="product-tile-holder">
                 {sorfil_data.length===0?
-                <h1 style={{color:"gray"}}>No Products Available</h1>
+                <h1 id="no-products">No Products Available</h1>
                 :sorfil_data.map((ele)=>
                     <Items key={ele.link} data={ele} handleClick={handleClick}/>
                 )}

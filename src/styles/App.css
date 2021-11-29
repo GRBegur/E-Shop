@@ -113,6 +113,11 @@ select{
     box-shadow: inset 0 0 7px 0px;
 }
 
+#no-products{
+    color:gray;
+    position: absolute;
+}
+
 .product-tile-holder{
     margin: 1rem;
     display: grid;
@@ -125,12 +130,16 @@ select{
     .product-tile-holder{
         grid-template-columns: repeat(2,1fr);
     }
-    
 }
 
 @media screen and (min-width:750px) {
     .product-tile-holder{
         grid-template-columns: repeat(3,1fr);
+    }
+    
+    #no-products{
+        left: 50%;
+        margin-left: -13%;
     }
     
 }
@@ -147,7 +156,6 @@ select{
     .product-tile-holder{
         grid-template-columns: repeat(5,1fr);
     }
-    
 }
 
 
